@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   // vercel로 배포 시 해당 url로 사용
-  // metadataBase: new URL("https://cheokcheok-bapsang.vercel.app"),
+  metadataBase: new URL("https://cheokcheok-bapsang.vercel.app"),
   title: "척척밥상",
   description: "신선한 식재료를 합리적인 가격에 공동구매하세요",
   openGraph: {
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description: "신선한 식재료를 합리적인 가격에 공동구매하세요",
     images: [
       {
-        url: "/cheokcheok-bapsang-og-image.png",
+        url: "/cheokcheok-bapsang-og-image.jpg",
         width: 1200,
         height: 630,
         alt: "척척밥상 공동구매",
